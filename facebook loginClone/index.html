@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook Clone</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .footers{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+            text-wrap: wrap;
+        }
+        .x{
+            display: flex;
+        }
+        .d{
+            display: flex ;font-size: 12px;   gap: 4px; color: #737373;;
+        }
+
+        
+        .fullbox{
+            height: 100vh;
+            width: 100vw;
+            background-color:#edf0f3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+            justify-content: space-between;
+            overflow-y: scroll;
+        }
+        .container{
+            height: 496px;
+            width: 100%;
+            position: relative;
+            top: 80px;
+        }
+        .box{
+            height: 496px;
+            margin: 0px 63px ;
+            padding:20px 0px;
+            display: flex;
+           border: none;
+            justify-content: center;
+            gap: 10px;
+
+        }
+      .leftbox{
+        
+       position: relative;
+       top: 70px;
+       right: 50px;
+       height: fit-content;
+       width: 590px;
+        
+
+        
+        
+        
+        
+        
+        
+     
+        
+       
+      }
+      
+      
+      img{
+        width: 320.94px;
+        height: 106px;
+      }
+      .rightbox{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 396px ;
+        height: 456px;
+       
+       
+        
+        
+
+      }
+      .loginform{
+        display: flex;
+        flex-direction: column;
+       margin-top: 30px;
+      padding-top: 10px;
+      padding-bottom: 24px;
+        align-items: center;
+        gap: 20px;
+        background: #ffff;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      
+      }
+      ._z6{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      .rightbox input{
+        width: 100%;
+      
+      }
+      .x{
+        display: flex;
+        gap: 20px;
+      }
+      .x li{
+        list-style: none;
+      }
+      ._z2{
+        width: 100%;
+       
+      }
+      ._z3{
+        width: 100%;
+
+      }
+      ._z4{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+
+      }
+      ._z4 button{
+        width: 100%;
+        background:#1877f2;
+        border: #1877f2;
+        color: white;
+        font-size: larger;
+        font-weight: 500;
+
+      }
+      
+      ._z7 {
+        width: 100%;
+        border: 2px black;
+
+      }
+      #num{
+        border: 1px solid #717177;
+        width: 600px;
+        position: relative;
+        left: 30px;
+      }
+      .d{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+      @media (max-width:800px) {
+        .box{
+          display: contents;
+          flex-direction: column;
+          gap: 30px;
+
+        }
+        
+      }
+    </style>
+</head>
+<body>
+    <div class="fullbox">
+    <div class="container">
+        <div class="box">
+            <div class="leftbox">
+                <div class="imagesfecebook">
+                    <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook" style="position: relative; right: 30px;">
+
+                </div>
+                <div>
+                    <h2 style="    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                    font-size: 28px;
+                    font-weight: normal;
+                    line-height: 32px;
+                    width: 500px;
+                    ">Facebook helps you connect and share with the people in your life.</h2>
+                </div>
+            </div>
+            <div class="rightbox">
+                <div class="loginform">
+                    <div class="_z2"> 
+                         <input type="text" name=""placeholder="Email addres or phone number"; id="" style="  height:51.6px;padding: 14px 16px; font-size: 16px; border-radius: 6px; border: 1px solid rgb(207, 200, 200);">
+                    </div>
+                    <div class="_z3">
+                        <input type="password" name="" placeholder="Password" id=""style="font-size: 16px;height: 51.6px;border-radius: 8px;padding: 14px 16px; border: 1px solid rgb(207, 200, 200); ">
+                    </div>
+                    <div class="_z4">
+                      <button style="height: 48px;border-radius: 8px;font-size: 16px;padding: 14px 16px; border: 1px solid rgb(207, 200, 200);"> Log in</button>
+                    </div>
+                    <div class="_z5">
+                        <a href="#" style="text-decoration: none ; font-size: 16px;font-weight: 500;">Forgotten password ? </a>
+                    </div>
+                    
+                    <div class="_z7" style="border:1px solid gray ; border-top: 1px red dotted;"></div>
+                    <div class="_z8">
+                        <button style=" width:200px ;height: 44px;border: none;
+                        border-radius: 8px;
+                        font-size: 17px;
+                        line-height: 48px;
+                        color: white;
+                        padding: 0 16px;background-color: #42b72a;
+    border-color: #42b72a;">Create new account </button>
+                    </div>
+                  
+
+                </div>
+                <div class="_z6">
+                    <a href="#" style="text-decoration: none ; color: black;font-weight: 600; font-size: 14px; font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;" >Creat a Page </a>
+                    <p style="font-size: 16px ;">for a celebrity, brand or business</p>
+                </div>
+
+
+
+            </div>
+       
+        </div>
+    </div>
+        <footer>
+            <div class="footers " style=" background: #fff; font-size: 12px; color: #737373;">
+                <div class="languages">
+                    <ul class="x">
+                        <li>English</li>
+                        <li>ಕನ್ನಡ</li>
+                        <li>ردو</li>
+                        <li>मराठी</li>
+                        <li>తెలుగు</li>
+                        <li>हिन्दी</li>
+                        <li>മലയാളം</li>
+                        <li>বাংলা</li>
+                        <li>ગુજરાતી</li>
+                    </ul>
+                
+            </div>
+
+            <div id="num"></div>
+            <div class="content">
+                <div class="d">
+                <a href="">Sign Up</a>
+                <a href="">Log in</a>
+                <a href="">Messenger</a>
+                <a href="">Facebook Lite</a>
+                <a href="">Facebook Lite</a>
+                <a href="">Places</a>
+                <a href="">Games</a>
+                <a href="">Marketplace</a>
+                <a href="">Meta Pay</a>
+                <a href="">Meta Quest</a>
+            </div>
+            </div>
+            </div>
+        </footer>
+    
+    </div>
+</body>
+</html>

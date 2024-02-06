@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: #e6e2e2;
+    overflow: scroll;
+    width: 100%;
+}
+
+
+
+
+
+/* nav bar start here 1 */
+.nav{  
+    background: #0F1111;
+    height: 60px;
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    width: 100%;   
+}
+.box-1{
+    height: auto;   
+}
+.box-1 img{
+   width: 90px;
+   height: 50px;
+}
+
+.box-2{
+    display: flex;
+    gap: 4px;
+    padding: 6px;
+}
+.box2-left img {
+    width: 20px;
+    position: relative ;
+    top: 10px;
+    object-fit: cover;   
+}
+.box2-right{
+    color: #fff;
+    font-size: 12px;
+}
+ #firstpara{
+    color: #dcdbdbec;
+}
+ .box2-right #loc{
+    font-size: 0.90rem;
+    font: #ffffff;
+    font-weight: 700;
+}
+
+.box-3{
+    display: flex;
+    padding: 2px;
+}
+
+.box-3 #toys{
+    background: #e9e6e6ec;
+    border: none;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    width: auto;
+    padding: 4px 6px;
+    outline: 0;
+    
+}
+#toys option{
+    background-color: #fff;
+}
+.box-3 .searchmenue input{
+    width: 540px;
+     height: 40px; 
+     padding: 0 6px;  
+     font-size: 16px; 
+     border-left: none;
+     border: none;
+     outline: 0;
+    
+}
+
+.box-3 .magnifie{
+    background-color: rgb(244, 184, 73);
+    width: 45px;
+    height: 40;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+ .magnifie i{
+   font-size: larger;
+   font-weight: 900; 
+}
+.box-4{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.box-4 img{
+    width: 22.5px;
+    height: 17px;
+}
+
+.box-4 select{
+    background-color: #0F1111;
+    color: #fff;
+    font-size: 14px;
+    border: solid #0F1111;
+}
+.box-5{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.box-5 p{
+    font-size: 12px;
+}
+ .box-5 .account{
+    display: flex;
+}
+.account p{
+   font-size: 14px;
+   font-weight: 600;
+}
+.account select{
+    background-color:  #0F1111;
+    border: none;
+}
+.box-6{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+.box-7{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+.box-7 i{
+    font-size: xx-large;
+}
+/* nav bar first end here */
+
+
+
+
+
+#hove:hover{
+    border: 1px solid #fff;
+}
+.nav2{
+    background-color: #263442f8;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #fff; padding: 10px 30px;
+}
+.listype{
+    display: flex;
+    gap: 20px;
+}
+.listype li{
+    list-style-type: none;
+}
+.listype li a{
+    text-decoration: none;
+    color:#fcf9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* header section complete here */
+#mainthing img{
+    width: 98vw;
+
+}
+#mainthing{
+    margin: 0 18px;
+    position: relative;
+    right: 10px;
+}
+.shop1a{
+width:370px;
+height: 410px;
+
+background-color: #fff;
+display: flex;
+flex-direction:column ;
+justify-content: space-around;padding-left: 10px;
+
+}
+.shop1{
+    position: relative;
+    bottom: 350px;
+    display: flex;
+    gap: 30px;
+    padding-left: 10px;
+  
+}
+
+.underNo1 {
+    display: flex;
+  
+}
+.unser2{
+    display: flex;
+}
+   .allshop{
+    margin: 0  20px;
+   }
+   .allshop{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   }
+   .nav2{
+    display: flex;
+    justify-content: space-between;
+   }
+   .nav2 p{
+color: rgb(212, 209, 209);
+font-weight: 500;
+font-size: 14px;
+word-spacing: 2px;
+
+
+   }
+   /* //footer start here */
+   .footer1{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    border-top: 1px solid #b5b0b0;
+    border-bottom: 1px solid #b5b0b0 ;
+    margin-top: 100px;
+   
+   }
+   footer{
+    background: #fff;
+   
+   }
+   .signin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:8px;
+    margin: 50px 0;
+   
+   }
+   .shop1a:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+    
+    
+   }
+   .listype li:hover{
+     border: solid 1px #fff;
+   }
+   .listype li{
+    padding:6px 8px;
+   }
+   .nav2 p:hover{
+    border: solid 1px #fff;
+   }
+   .nav2 p{
+    padding:6px 8px;
+   }
